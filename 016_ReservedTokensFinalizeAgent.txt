@@ -1,0 +1,35 @@
+Token name: AuctionToken
+
+Token ticker: ACT
+
+Token decimals: 18
+
+Multisig wallet address: 0xEC65c5F0aF49d83DC8b20efD96061e125AD355C9
+
+*****************************
+
+Crowdsale rate: 10
+
+Crowdsale start time: 2018-04-30T12:00 (GMT + 0)
+
+Crowdsale end time: 2018-07-31T12:00 (GMT + 0)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Finalize agent contract name: ReservedTokensFinalizeAgent
+
+Finalize agent contract address for Crowdsale: 0x37d2747E7841e5784fc75b0Cc41dAc0b62Ac4747
+
+*****************************
+
+****Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"distributedReservedTokensDestinationsLen","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"reservedTokensDistributionBatch","type":"uint256"}],"name":"distributeReservedTokens","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"reservedTokensAreDistributed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"inputs":[{"name":"_token","type":"address"},{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor"}]
+
+****Finalize agent contract ABI encoded constructor arguments for Crowdsale:**** 
+
+0000000000000000000000004f2753b700b9055a9542e1de1c8ba9ba2a466ef5000000000000000000000000f7e7991ac13c218123c1a243265ea616278f681a
